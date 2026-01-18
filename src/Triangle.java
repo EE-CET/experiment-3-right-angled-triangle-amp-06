@@ -10,6 +10,8 @@ import java.util.Scanner;
 					for(int j=0;j<2*i+1;j++)
 					{
 						System.out.print("*");
+						if(i>0 && j!=2*i)
+							System.out.print(" ");
 					}
 				
 				System.out.println("");}
